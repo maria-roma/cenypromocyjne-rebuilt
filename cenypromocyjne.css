@@ -1,0 +1,60 @@
+#container {
+    margin: 0px;
+
+}
+#topbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+
+}
+#header {
+    display: flex;
+    align-items: center;
+    border: 5px dotted yellow;
+}
+#menu {
+    display: flex;
+    justify-content: space-around;
+
+    border: 5px dotted rgb(42, 165, 236);
+}
+
+
+
+
+ul > li {
+    width: 20%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+li {
+    flex-direction: row;
+
+
+}
+li:hover {
+
+}
+#products {
+display: flex;
+justify-content: space-around;
+
+}
+#products > div {
+ width: 20%;
+ height: 20vh;
+ margin: 10px;
+ background-color: rgb(189, 99, 99);
+
+}
+
+
+
+#footer {
+    color: white;
+    background-color: black;
+}
